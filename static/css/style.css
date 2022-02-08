@@ -1,0 +1,38 @@
+html {
+    background-color: #85e485;
+    background-image: url('file:///C:/Users/Chand/source/repos/241_landing_page/static/images/milkweed_nwf.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    color: black;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+.main-content {
+    width: 50%;
+    background-color: rgb(162, 218, 148);
+    border-radius: 4em;
+    display: grid;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    padding: 1em 1em 5em 1em;
+}
+
+button {
+    width: 100%;
+    height: 2em;
+    border-radius: 1em;
+    border-color: white;
+    border: none;
+    margin: 5px;
+    font: inherit;
+    font-size: 2em;
+    font-weight: bolder;
+}
